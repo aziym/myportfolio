@@ -76,7 +76,7 @@ const Portfolio = () => {
       id: 1,
       title: "Prototype KAFA Management System",
       description: "Developed and tested a prototype system for parents to enroll their primary school children for extracurricular KAFA activities for Majlis Agama, Negeri Pahang",
-      image: "src/assets/project.png",
+      image: "/project.png",
       github: "https://github.com/aziym/KAFA-Management-System",
       demo: "https://github.com/aziym/KAFA-Management-System"
     },
@@ -84,7 +84,7 @@ const Portfolio = () => {
       id: 2,
       title: "TCPI Predict (Students Perfromance Prediction with machine learning)",
       description: "A study focused on developing a machine learning model to predict student performance at Tadika Cahaya Permata Ibu",
-      image: "src/assets/tcpi.jpg",
+      image: "/tcpi.jpg",
       github: "https://github.com/aziym/students-prediction-frontend",
       demo: "https://students-prediction-frontend.vercel.app/"
     },
@@ -92,7 +92,7 @@ const Portfolio = () => {
       id: 3,
       title: "My-Savings Calculator",
       description: "My Savings Calculator helps you plan savings by setting a target amount, goal date, and monthly income. It shows how much to save each month to reach your goal",
-      image: "src/assets/savings.jpg",
+      image: "/savings.jpg",
       github: "https://github.com/aziym/MySavings-Calculator",
       demo: "https://my-savings-calculator.vercel.app/"
     },
@@ -100,7 +100,7 @@ const Portfolio = () => {
       id: 4,
       title: "My-Bill Splitter Calculator",
       description: "My Bill Splitter makes it easy to split bills. Add names, customize with tax, and see how much everyone owes quickly and fairly",
-      image: "src/assets/bill.jpg",
+      image: "/bill.jpg",
       github: "https://github.com/aziym/MyBill-Splitter",
       demo: "https://my-bill-splitter-chi.vercel.app/"
     }
@@ -110,74 +110,74 @@ const Portfolio = () => {
   const skills = [
     {
       name: "Java",
-      icon: "src/assets/java.png"
+      icon: "/java.png"
     },
     {
       name: "Python",
-      icon: "src/assets/phyton.png"
+      icon: "/phyton.png"
     },
     {
       name: "Html",
-      icon: "src/assets/html.png"
+      icon: "/html.png"
     },
     {
       name: "Css",
-      icon: "src/assets/css.png"
+      icon: "/css.png"
     },
     {
       name: "Php",
-      icon: "src/assets/php.png"
+      icon: "/php.png"
     },
     {
       name: "C++",
-      icon: "src/assets/cplus.png"
+      icon: "/cplus.png"
     },
     {
       name: "React",
-      icon: "src/assets/react.png"
+      icon: "/react.png"
     },
     {
       name: "Node.js",
-      icon: "src/assets/node.png"
+      icon: "/node.png"
     },
     {
       name: "Laravel",
-      icon: "src/assets/laravel.png"
+      icon: "/laravel.png"
     },
     {
       name: "MongoDB",
-      icon: "src/assets/mongodb.png"
+      icon: "/mongodb.png"
     },
     {
       name: "Firebase",
-      icon: "src/assets/firebaseIcon.png"
+      icon: "/firebaseIcon.png"
     },
     {
       name: "MqSql",
-      icon: "src/assets/sql.png"
+      icon: "/sql.png"
     },
     {
       name: "Git",
-      icon: "src/assets/git.png"
+      icon: "/git.png"
     },
     {
       name: "ABAP",
-      icon: "src/assets/abap.png"
+      icon: "/abap.png"
     },
     {
       name: "Angular",
-      icon: "src/assets/angular.png"
+      icon: "/angular.png"
     },
     {
       name: "Microsoft Azure",
-      icon: "src/assets/azure.png"
+      icon: "/azure.png"
     },{
       name: "Microsoft Excell",
-      icon: "src/assets/excell.png"
+      icon: "/excell.png"
     },
     {
       name: "Figma",
-      icon: "src/assets/figma.png"
+      icon: "/figma.png"
     }
   ];
 
@@ -291,7 +291,7 @@ const Portfolio = () => {
                   {...pulseAnimation}
                 />
                 <img 
-                  src="src/assets/heroImage.png"
+                  src="/heroImage.png"
                   alt="Profile" 
                   className="rounded-full w-66 h-65 object-cover mx-auto ring-4 ring-emerald-500/40 relative z-10"
                 />
@@ -510,9 +510,9 @@ const Portfolio = () => {
             </motion.h2>
             <div className="grid gap-6">
               {[
-                { href: "mailto:azim.bakri2002@gmail.com", text: "Drop me a message anytime, let’s talk code, ideas, or collaborations", icon: "src/assets/email.png" },
-                { href: "https://www.linkedin.com/in/muhamad-azim-bin-m-bakri", text: "Connect with me and let's grow our networks while sharing tech insights!", icon: "src/assets/linkedin.png" },
-                { href: "https://github.com/aziym", text: "Dive into my projects and see what I’ve been building behind the scenes!", icon: "src/assets/github.png" }
+                { href: "mailto:azim.bakri2002@gmail.com", text: "Drop me a message anytime, let’s talk code, ideas, or collaborations", icon: "/email.png" },
+                { href: "https://www.linkedin.com/in/muhamad-azim-bin-m-bakri", text: "Connect with me and let's grow our networks while sharing tech insights!", icon: "/linkedin.png" },
+                { href: "https://github.com/aziym", text: "Dive into my projects and see what I’ve been building behind the scenes!", icon: "/github.png" }
               ].map((contact, index) => (
                 <motion.a
                   key={index}
