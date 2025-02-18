@@ -245,7 +245,7 @@ const Portfolio = () => {
         className="absolute inset-0 w-full h-full object-cover"
         style={{ zIndex: -1 }}
       >
-        <source src="/background1.mp4" type="video/mp4" />
+        <source src="/background2.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
