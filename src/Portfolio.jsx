@@ -444,7 +444,7 @@ const expertiseData = [
                   whileHover={{ x: 5 }}
                   transition={{ delay: 0.3 }}
                 >
-                  Fresh graduate in Computer Science (Software Engineering) from UMPSA. Experienced in both functional and technical SAP consulting, from customizing SAP B1 to optimizing business processes. Also skilled in full-stack development, system integration, and building real-world digital solutions.
+                  Fresh graduate in Computer Science (Software Engineering) from UMPSA. Experienced in both functional and technical SAP consulting, from customizing SAP to optimizing business processes. Also skilled in full-stack development, system integration, and building real-world digital solutions.
                 </motion.p>
               </div>
             </div>
